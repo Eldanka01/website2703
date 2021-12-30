@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: #F6F6F6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 950px;
+    background: url("img/bg.png") no-repeat 110% 100%, linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%);
+    border-radius: 0 0 25% 25%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    border-radius: 100px 100px 0 0;
+}
+
+.header
+
+.header-content {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.header-list a {
+    color: white;
+    margin: 0 40px;
+}
+
+.header-list .logo a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-list div {
+    display: inline-block;
+}
+
+.header-list .links {
+    margin-left: 50px;
+}
+
+.header-list .sign {
+    margin-left: 50px;
+}
+
+.header-list .links .active {
+    border-bottom: 2px solid white;
+}
+
+.header-list .sign .active {
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+    border-radius: 100px;
+    padding: 13px 40px;
+    margin-left: 0;
+    color: white;
+}
+
+.header-content .explore {
+    margin-top: 100px;
+    color: white;
+    padding: 11px 30px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    width: 227px;
+    font-size: 18px;
+}
+
+.header-content .heading {
+    width: 600px;
+    color: white;
+}
+
+.header-content h1 {
+    font-size: 60px;
+}
+
+.header-content h2 {
+    font-size: 25px;
+    color: white;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+.header-content .btn {
+    padding: 25px 45px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 27px;
+    width: 260px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 65px;
+    color: white;
+}
+
+.destinations {
+    max-width: 1400px;
+    margin: 100px auto;
+}
+
+.destinations h3 {
+    font-size: 25px;
+}
+
+.destinations h2 {
+    font-size: 55px;
+}
+
+.destinations p {
+    color: #0F1F1C;
+    font-size: 25px;
+}
+
+.destinations .left {
+    display: inline-block;
+    width: 450px;
+    margin-left: 100px;
+    vertical-align: middle;
+}
+
+.destinations .btn {
+    margin-top: 60px;
+    padding: 25px 45px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 27px;
+    width: 220px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.destinations img {
+    vertical-align: middle;
+
+}
+
+.feedback {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.feedback .right {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 60px;
+    width: 570px;
+}
+
+.feedback h2 {
+    font-size: 45px;
+}
+
+.feedback .round {
+    width: 132px;
+    height: 132px;
+    background: #FF794E;
+    border-radius: 50%;
+}
+
+.name-right {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    width: 250px;
+}
+
+.name-right h3 {
+    font-size: 33px;
+}
+
+.name-right h4 {
+    font-size: 25px;
+    font-weight: normal;
+    color: #0F1F1C;
+}
+
+.feedback p {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #0F1F1C;
+}
+
+.feedback .stars {
+    margin-top: 30px;
+}
+
+.action {
+    max-width: 1200px;
+    background: #FFFFFF;
+    margin: 100px auto;
+    border-radius: 60px;
+    text-align: center;
+    padding: 115px 315px;
+}
+
+.action h2 {
+    font-size: 45px;
+}
+
+.action p {
+    font-size: 25px;
+    color: #0F1F1C;
+    margin-top: 30px;
+}
+
+.action .btn {
+    margin: 30px auto;
+    padding: 25px 45px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 27px;
+    width: 220px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.subscribe {
+    text-align: center;
+}
+
+.subscribe h2 {
+    font-size: 55px;
+}
+
+.subscribe form {
+    margin: 60px 0;
+}
+
+.subscribe input {
+    padding: 47px;
+    border: 0;
+    background: white;
+    width: 500px;
+    border-radius: 35px;
+}
+
+.subscribe button {
+    margin: 30px auto;
+    padding: 35px 80px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 35px;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    border: 0;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: 120px auto 60px auto;
+}
+
+.footer a {
+    color: black;
+}
+
+.footer .logo a {
+    color: #FF7C4E;
+}
